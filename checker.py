@@ -2,13 +2,11 @@ import tkinter
 from tkinter import *
 from textblob import TextBlob
 import kivy
-kivy.require('1.9.1')
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.label import Label
 from kivy.uix.button import Button
 from kivy.uix.relativelayout import RelativeLayout
-from kivy.uix.textinput import TextInput
 
 
 Builder.load_string('''
